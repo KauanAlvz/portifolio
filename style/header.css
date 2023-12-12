@@ -1,0 +1,29 @@
+a{
+    color: #000;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a:hover{
+    opacity: 0.8;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    max-width: 980px;
+    margin: auto;
+    height: 8vh;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+.nav-list li{
+    letter-spacing: 2px;
+    margin-left: 32px;
+}
+.nav-list li a{
+    padding: 5px 0;
+}
