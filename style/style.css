@@ -3,8 +3,9 @@
 @import url(main.css);
 :root{
     --color1: #986DFF;
-    --color2: #8267c2;
-    --color3: #424242;
+    --color2: #8a58ff;
+    --selection: #b08eff;
+    --color3: #4a484b;
     --bg: #141414;
 }
 *{
@@ -27,4 +28,21 @@ body{
     -webkit-text-fill-color: transparent;
     color: black;
     -webkit-background-clip: text;
+}
+.gray{
+    color: var(--color3);
+}
+.button1{
+    padding: 15px 40px;
+    background-color: var(--color1);
+    border: none;
+    color: #fff;
+    font-family: 'poppins', sans-serif;
+    font-size: 1.7rem;
+    border-radius: 5px;
+    margin: 20px 0;
+    transition: 0.4s;
+}
+.button1:hover{
+    background-color: #8860e4;
 }
