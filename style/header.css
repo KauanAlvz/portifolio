@@ -6,7 +6,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0px 0px 10px 5px #996dff28 ;
+    border-bottom: 2px solid var(--color1);
 }
 a{
     color: #fff;
@@ -63,16 +63,17 @@ nav{
     }
     .nav-list{
         position: absolute;
-        top: 8vh;
+        top: 4vh;
         right: 0;
-        width: 70vw;
-        height: 92vh;
+        width: 50vw;
+        height: 80vh;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
-        background: #141414e0;
+        background: var(--bg);
+        border-radius: 15px;
     }
     .nav-list li{
         margin-left: 0;

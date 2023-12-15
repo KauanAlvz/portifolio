@@ -21,9 +21,13 @@ main .container{
     align-items: center;
 }
 @media (max-width: 900px) {
+    main p{
+        text-align: center;
+    }
     main .container .text, .img{
         width: 100%;
         text-align: center;
+        align-items: center;
     }
     main .container .text button{
         margin: 20px auto;
