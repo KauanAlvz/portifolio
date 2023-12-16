@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lato:wght@300;400;700;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lato:wght@300;400;700;900&family=Poppins:wght@300;400;500;600;700;800&display=swap');
 @import url(header.css);
 @import url(main.css);
 :root{
@@ -16,7 +16,7 @@ html{
     font-size: 62.5%;
 }
 body{
-    font-family: 'poppins', sans-serif;
+    font-family:'Inter', sans-serif;
     font-size: 1.8rem;
     background-color: var(--bg);
     color: #fff;
@@ -37,7 +37,7 @@ body{
     background-color: var(--color1);
     border: none;
     color: #fff;
-    font-family: 'poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 1.7rem;
     border-radius: 5px;
     margin: 20px 0;
