@@ -5,7 +5,7 @@
     --color1: #986DFF;
     --color2: #8a58ff;
     --selection: #b08eff;
-    --color3: #4a484b;
+    --color3: #c7c4c4;
     --bg: #141414;
 }
 *{
@@ -45,4 +45,23 @@ body{
 }
 .button1:hover{
     opacity: 0.8;
+}
+.card1{
+    height: 250px;
+    width: 350px;
+    border-radius: 10px;
+    border: 2px solid var(--color1);
+    padding: 20px;
+    background-color: #131313;
+}
+.card1 .top{
+    text-align: center;
+    font-size: 5.0rem;
+    margin-bottom: 20px;
+    color: var(--color2);
+}
+.card1 .bottom{
+    text-align: center;
+    color: var(--color3);
+    font-weight: 500;
 }
