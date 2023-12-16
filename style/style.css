@@ -44,5 +44,5 @@ body{
     transition: 0.4s;
 }
 .button1:hover{
-    background-color: #8860e4;
+    opacity: 0.8;
 }
