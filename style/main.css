@@ -29,9 +29,10 @@ main .container{
     margin-bottom: 20px;
 }
 .sobre p{
-    width: 700px;
+    max-width: 700px;
     margin: auto;
     letter-spacing: 1.5px;
+    text-align: center;
 }
 .servicos h2{
     text-align: center;
@@ -40,7 +41,7 @@ main .container{
 }
 .servicos-container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
     align-items: center;
     justify-items: center;
 }
@@ -51,10 +52,11 @@ main .container{
 }
 .habilidades-container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     justify-items: center;
 }
 @media (max-width: 900px) {
+    
     main p{
         text-align: center;
     }
@@ -63,11 +65,22 @@ main .container{
         text-align: center;
         align-items: center;
     }
+    main .container .img img{
+        display: none;
+    }
     main .container .text button{
         margin: 20px auto;
     }
     main .container{
         flex-direction: column;
         width: 100%;
+    }
+}
+@media (max-width: 800px) {
+    .habilidades-container, .servicos-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
 }
