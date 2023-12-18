@@ -1,6 +1,5 @@
 main{
     padding-top: 150px;
-    margin-bottom: 100px;
 }
 main p{
     font-size: 3.0rem;
@@ -23,7 +22,7 @@ main .container{
 }
 .sobre{
     text-align: center;
-    margin-bottom: 100px;
+    padding-top: 150px;
 }
 .sobre h2{
     text-align: center;
@@ -36,12 +35,23 @@ main .container{
 }
 .servicos h2{
     text-align: center;
+    padding-top: 150px;
     margin-bottom: 40px;
 }
 .servicos-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
+    justify-items: center;
+}
+.habilidades h2{
+    text-align: center;
+    padding-top: 150px;
+    margin-bottom: 40px;
+}
+.habilidades-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
 }
 @media (max-width: 900px) {
