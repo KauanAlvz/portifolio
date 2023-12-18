@@ -24,9 +24,10 @@ main .container{
     text-align: center;
     padding-top: 150px;
 }
-.sobre h2{
+.sobre h2, .habilidades h2, .projetos h2, .servicos h2{
     text-align: center;
-    margin-bottom: 20px;
+    padding-top: 150px;
+    margin-bottom: 50px;
 }
 .sobre p{
     max-width: 700px;
@@ -34,25 +35,20 @@ main .container{
     letter-spacing: 1.5px;
     text-align: center;
 }
-.servicos h2{
-    text-align: center;
-    padding-top: 150px;
-    margin-bottom: 40px;
-}
 .servicos-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
     align-items: center;
     justify-items: center;
 }
-.habilidades h2{
-    text-align: center;
-    padding-top: 150px;
-    margin-bottom: 40px;
-}
 .habilidades-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-items: center;
+}
+.projetos-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
     justify-items: center;
 }
 @media (max-width: 900px) {

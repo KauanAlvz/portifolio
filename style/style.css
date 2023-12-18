@@ -88,6 +88,58 @@ body{
     font-size: 7.0rem;
     margin-top: 20px;
 }
+.card3{
+    height: 200px;
+    width: 350px;
+    padding: 15px;
+    border:1px solid var(--color3);
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-evenly;
+    transition: 0.5s;
+    margin-bottom: 20px;
+}
+.card3:hover{
+    border: 1px solid var(--color1);
+}
+.card3:hover h3{
+    border-left: 2px solid var(--color1);
+}
+.card3 h3{
+    border-left: 2px solid #fff;
+    transition: 0.5s;
+    padding: 2px;
+}
+.card3 p{
+    font-size: 1.6rem;
+}
+.card3 .linguagens i{
+    font-size: 3.0rem;
+    transition: 0.8s;
+}
+.card3 .botoes{
+    display: flex;
+    gap: 20px;
+}
+.card3 .botoes button{
+    border: none;
+    border-radius: 5px;
+    background-color: var(--color1);
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    transition: 0.3s;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.card3 .botoes button:hover{
+    padding: 10px 25px;
+}
+.card3 .linguagens i:hover{
+    color: #986DFF;
+}
+
 @media (max-width: 425px) {
     .servicos-container
     .card1{
