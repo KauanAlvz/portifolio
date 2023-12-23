@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lato:wght@300;400;700;900&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+:root{
+    --gradient: linear-gradient(to right, #7542eb, #ce34ec, #9563f0,#7542eb);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'poppins', sans-serif;
+    background-color: #fff;
+    color: #000;
+}
+header{
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 2px solid #7542eb;
+    position: fixed;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+.logo-header{
+    font-size: 30px;
+    font-weight: 500;
+    color: #7542eb;
+    text-transform: uppercase;
+}
+.botao-header{
+    padding: 7px 10px;
+    margin: 0 5px;
+    border: none;
+    background-color: #7542eb;
+    border-radius: 7px;
+    
+    color: #fff;
+    font-family: 'poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+.botao-header:hover{
+    opacity: 0.9;
+}
+.apresentacao-sec{
+    padding-top: 200px;
+}
+.p-gradient{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+
+    background: var(--gradient);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate-gradient 2.5s linear infinite;
+}
+@keyframes animate-gradient{
+    to{
+        background-position: 200%;
+    }
+}
