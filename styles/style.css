@@ -11,6 +11,11 @@ body{
     background-color: #fff;
     color: #000;
 }
+h2{
+    font-size: 35px;
+    margin-bottom: 50px;
+    width: auto;
+}
 header{
     width: 100%;
     background-color: #fff;
@@ -42,6 +47,7 @@ nav{
     font-family: 'poppins', sans-serif;
     font-size: 17px;
     font-weight: 500;
+    transition: 0.3s;
 }
 .botao-header:hover{
     opacity: 0.9;
@@ -78,4 +84,36 @@ nav{
 .projetos-sec{
     margin-top: 100px;
     text-align: center;
+}
+.card-projetos{
+    min-height: 300px;
+    height: 250px;
+    width: 300px;
+    box-shadow: 0px 0px 5px 5px #00000027;
+    border-radius: 10px;
+}
+.card-projetos .topo{
+    border-radius: 10px 10px 0 0;
+    background-image: linear-gradient(to right, #7542eb, #9e7aff);
+    color: #fff;
+    padding: 35px 0;
+    font-size: 20px;
+}
+.card-projetos .corpo{
+    padding: 10px;
+}
+.botoes button{
+    padding: 5px 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: #7542eb;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'poppins' , sans-serif;
+    margin-top: 10px;
+    transition: 0.3s;
+    
+}
+.botoes button:hover{
+    opacity: 0.9;
 }
