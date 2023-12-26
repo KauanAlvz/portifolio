@@ -85,7 +85,13 @@ nav{
     margin-top: 100px;
     text-align: center;
 }
+.projetos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
 .card-projetos{
+    margin-top: 30px;
     min-height: 300px;
     height: 250px;
     width: 300px;
@@ -116,4 +122,18 @@ nav{
 }
 .botoes button:hover{
     opacity: 0.9;
+}
+
+footer{
+    background-color: #000;
+}
+@media (max-width: 1000px) {
+    .projetos{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 670px) {
+    .projetos{
+        grid-template-columns: 1fr;
+    }
 }
