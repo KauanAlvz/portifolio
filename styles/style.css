@@ -38,7 +38,7 @@ nav{
     font-size: 30px;
     font-weight: 500;
     color: #7542eb;
-    text-transform: uppercase;
+
 }
 .botao-header{
     padding: 7px 10px;
@@ -60,10 +60,9 @@ nav{
     padding-top: 200px;
 }
 .p-gradient{
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 700;
     text-align: center;
-    text-transform: uppercase;
 
     background: var(--gradient);
     background-size: 200%;
@@ -91,6 +90,7 @@ nav{
     width: 100%;
     max-width: 1440px;
     margin: auto;
+    margin-top: 70px;
 }
 .projetos{
     display: grid;
@@ -114,6 +114,14 @@ nav{
 }
 .card-projetos .corpo{
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.botoes{
+    display: flex;
+    gap: 15px;
 }
 .botoes button{
     padding: 5px 20px;
@@ -132,15 +140,16 @@ nav{
 }
 
 footer{
-    background-color: #eee9ff;
+    background-image: linear-gradient(to right, #7542eb, #8b6ce2);
     padding: 10px 0;
     margin-top: 20px;
     text-align: center;
     font-weight: 500;
+    color: #fff;
 }
 footer a{
-    color: #3300ac;
-    font-weight: 600;
+    color: #fff;
+    text-decoration: underline;
 }
 @media (max-width: 1000px) {
     .projetos{
