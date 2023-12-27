@@ -138,6 +138,25 @@ nav{
 .botoes button:hover{
     opacity: 0.9;
 }
+.botao-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botao-sec button{
+    padding: 15px 40px;
+    border: none;
+    background-color: #7542eb;
+    color: #fff;
+    font-family: 'poppins', sans-serif;
+    border-radius: 10px 0;
+    margin: 50px 0 30px 0;
+    transition: 0.3s;
+    font-size: 18px;
+}
+.botao-sec button:hover{
+    transform: scale(1.1);
+}
 
 footer{
     background-image: linear-gradient(to right, #7542eb, #8b6ce2);
