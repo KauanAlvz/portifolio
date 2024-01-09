@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lato:wght@300;400;700;900&family=Poppins:wght@300;400;500;600;700;800&display=swap');
 :root{
-    --gradient: linear-gradient(to right, #7542eb, #ce34ec, #9563f0,#7542eb);
+    --gradient: linear-gradient(to right, #7542eb, #ce34ec, #9563f0, #7542eb);
 }
 *{
     margin: 0;
@@ -20,6 +20,12 @@ h2{
     margin-bottom: 50px;
     width: auto;
 }
+
+.purple{
+    color: #7542eb;
+    font-weight: 500;
+}
+
 header{
     width: 100%;
     background-color: #fff;
@@ -81,6 +87,7 @@ nav{
     text-align: center;
 }
 .sobre-sec p{
+    font-size: 18px;
     max-width: 980px;
     margin: auto;
 }
@@ -118,6 +125,7 @@ nav{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    min-height: 180px;
 }
 .botoes{
     display: flex;
