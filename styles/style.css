@@ -20,6 +20,9 @@ h2{
     margin-bottom: 50px;
     width: auto;
 }
+button{
+    cursor: pointer;
+}
 
 .purple{
     color: #7542eb;
